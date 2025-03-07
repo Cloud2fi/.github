@@ -1,0 +1,13 @@
+name: Cloud2 Pull Request Defaults
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+  actions: read
+  pull-requests: write
+
+jobs:
+  cloud2-pull-request-defaults:
+    uses: Cloud2fi/.github-actions/.github/workflows/cloud2-pull-request-defaults.yml@main
